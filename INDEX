@@ -1,0 +1,25 @@
+Metab-package           What the package does (short line)
+biomass.example         An example of the biomass data frame to be used
+                        in conjunction with the function norm.biomass.
+clean.fix               A function for cleaning and correct results
+                        obtained with the Automated Mass Spectral
+                        Deconvolution and Identification System (AMDIS)
+                        coupled to our in-house library.
+clean.fix.results       An example of the results obtained using the
+                        function clean.fix.
+del.false               del.false: a function to exclude false
+                        positives from metabolomics data frames.
+htest                   Function developed to apply t-test or ANOVA on
+                        a data frame.
+norm.biomass            A function to normalize metabolomics data by
+                        the biomass, cell number or O.D.
+norm.internal           Normalize metabolomics data sets by internal
+                        standard
+norm.medium             A function to normalize metabolomics data by
+                        the uncultured medium.
+raw.peaks               A function to extract mass fragments from
+                        metabolomics data sets.
+raw.peaks.results       An example of the data frame produced by
+                        raw.peaks.
+ref.ion.lib             The reference ion library to be used in
+                        conjunction with the function clean.fix.
